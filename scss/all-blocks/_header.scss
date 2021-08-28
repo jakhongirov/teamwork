@@ -3,6 +3,10 @@
    align-items: center;
 }
 
+.header__logo{
+   z-index: 200;
+}
+
 .header__box{
    display: flex;
    align-items: center;
@@ -140,7 +144,6 @@
    background-size: contain;
    background-repeat: no-repeat;
    content: "";
-   
 }
 
 .time__strong{
@@ -158,6 +161,7 @@
 }
 
 .header__bottom .container{
+   width: 100%;
    background: #ffffff;
 }
 
