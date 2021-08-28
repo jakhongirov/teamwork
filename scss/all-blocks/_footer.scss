@@ -1,4 +1,5 @@
-.footer .container{
+
+.footer__box{
    display: flex;
 }
 
@@ -112,4 +113,18 @@
    background-repeat: no-repeat;
    background-size: contain;
    content: "";
+}
+
+.footer_span{
+   display: inline-block;
+   margin-left: 1170px;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 18px;
+   display: flex;
+   align-items: center;
+   text-align: right;
+   color: #5C5C5C;
 }
