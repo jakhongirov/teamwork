@@ -1,0 +1,78 @@
+@mixin box($en: 200px, $buy: 200px, $rang: red, $dumalo: 0) {
+	width: $en;
+	height: $buy;
+	background-color: $rang;
+	border-radius: $dumalo;
+}
+
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@mixin text-ellipses {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+@mixin triangle(
+	$size: 15px,
+	$triangle-color: darkcyan,
+	$top-left: false,
+	$top-right: false,
+	$bottom-left: false,
+	$bottom-right: false
+) {
+	position: relative;
+	z-index: 1;
+
+	&::before {
+		position: absolute;
+		z-index: -1;
+		width: 0;
+		height: 0;
+		border-right: $size solid transparent;
+		border-bottom: $size solid $triangle-color;
+		border-left: $size solid transparent;
+
+		@if ($top-left) {
+			left: 0;
+			top: 0;
+			transform: translateX(-50%);
+		} @else if($top-right) {
+			top: 0;
+			right: 0;
+			transform: translateX(50%);
+		} @else if ($bottom-left) {
+			bottom: 0;
+			left: 0;
+			transform: translateX(-50%);
+		} @else if ($bottom-right) {
+			bottom: 0;
+			right: 0;
+			transform: translateX(50%);
+		}
+
+		content: '';
+	}
+}
+
+@mixin media-max($size: 144px) {
+	@media only screen and (max-width: $size) {
+		@content;
+	}
+}
+
+@mixin media-min($size: 144px) {
+	@media only screen and (min-width: $size) {
+		@content;
+	}
+}
+
+@mixin media-min-max($min-size: 320px, $max-size: 1440px) {
+	@media only screen and (min-width: $min-size) and (max-width: $max-size) {
+		@content;
+	}
+}

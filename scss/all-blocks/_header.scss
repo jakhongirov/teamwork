@@ -1,0 +1,229 @@
+.header .container{
+   display: flex;
+   align-items: center;
+}
+
+.header__box{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.header__top{
+   display: flex; 
+   justify-content: space-around;
+   align-items: center;
+   margin-left: 40px;
+}
+
+.header__address{
+   position: relative;
+   display: block;
+   padding: 10px;
+   margin-right: 105px;
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   display: flex;
+   align-items: center;
+   color: #333333;
+}
+
+.header__address::before{
+   position: absolute;
+   left: -10px;
+   display: block;
+   width: 14px;
+   height: 13px;
+   background-image: url("../image/house.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.top__list-middle{
+   display: flex;
+   align-items: center;
+   @include reset-list ;
+   margin-right: 98px;
+}
+
+.top__item-middle{
+   position: relative;
+   display: block;
+   margin: 0;
+}
+
+.top__item-middle + .top__item-middle{
+   margin-left: 10px;   
+}
+
+.top__item-middle::before{
+   position: absolute;
+   top: 50%;
+   left: -9px;
+   display: block;
+   width: 4px;
+   height: 4px;
+   background-image: url("../image/Ellipse.svg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   content: "";
+} 
+
+.top__item-middle:nth-child(1)::before{
+   position: absolute;
+   top: 5px;
+   left: -9px;
+   display: block;
+   width: 13px;
+   height: 13px;
+   background-image: url("../image/phone.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.top__link-middle{
+   padding: 10px;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   color: #333333;
+   text-decoration: none;
+}
+
+.top__link-middle:hover{
+   color: #FFBD54;
+}
+
+.top__link-middle:active{
+   color: #333333;
+   opacity: 0.6;
+}
+
+.top__list-right{
+   display: flex;
+   align-items: center;
+   @include reset-list;
+}
+
+.top__item-right{
+   position: relative;
+   display: block;
+   padding: 10px;
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   align-items: center;
+   color: #333333;
+}
+
+.top__item-right +.top__item-right{
+   margin-left: 10px;
+}
+
+.top__item-right:nth-child(1):before{
+   position: absolute;
+   top: 35%;
+   left: -9px;
+   display: block;
+   width: 14px;
+   height: 14px;
+   background-image: url("../image/date.svg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   content: "";
+   
+}
+
+.time__strong{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 18px;
+   align-items: center;
+   color: #333333;
+}
+
+.header__bottom{
+   display: flex;
+   align-items: center;
+}
+
+.header__bottom .container{
+   background: #ffffff;
+}
+
+.nav__list{
+   position: relative;
+   display: flex;
+   align-items: center;
+   @include reset-list;
+}
+
+.nav__item--active::before{
+   position: absolute;
+   top: 35%;
+   left: -9px;
+   display: block;
+   width: 15px;
+   height: 15px;
+   background-image: url("../image/fish.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.nav__item + .nav__item{
+   margin-left: 40px;
+}
+
+.nav__link{
+   display: block;
+   padding: 15px;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #333333;
+   text-decoration: none;
+}
+
+.nav__link:active{
+   color: #333333;
+   opacity: 0.6;
+}
+
+.bottom__span{
+   position: relative;
+   display: block;
+   margin-left: 196px;
+   padding: 10px;
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   text-align: right;
+   color: #333333;
+}
+
+.bottom__span::before{
+   position: absolute;
+   left: -20px;
+   display: block;
+   width: 23px;
+   height: 21px;
+   background-image: url("../image/pet.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
