@@ -1,0 +1,130 @@
+
+.footer__box{
+   display: flex;
+}
+
+.footer__lsit-nav-left{
+   @include reset-list;
+   margin-left: 60px;
+}
+
+.footer__nav-item-left{
+   margin: 0;  
+   margin-bottom: 10px;
+}
+
+.nav__link--footer{
+   padding: 10px;
+}
+
+.nav__link--footer:hover{
+   color:  #FFBD54;
+}
+
+.nav__link--footer:active{
+   color: rgba(51, 51, 51, 0.7);
+}
+
+.footer__nav-list-right{
+   @include reset-list;
+   margin-left: 80px;
+}
+
+.footer__nav-item-right{
+   margin: 0;  
+   margin-bottom: 10px;
+}
+
+.footer__work-time-list{
+   @include reset-list;
+   margin-left: 150px;
+}
+
+.footer__work-time-item{
+   position: relative;
+   display: block;
+   padding: 10px;
+   font-family: "Futura PT";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   align-items: center;
+   color: #333333;
+}
+
+.footer__work-time-item:nth-child(1):before{
+   position: absolute;
+   top: 35%;
+   left: -12px;
+   display: block;
+   width: 14px;
+   height: 14px;
+   background-image: url("../image/date.svg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   content: "";
+}
+
+.footer__address{
+   position: relative;
+   display: block;
+   width: 157px;
+   margin-left: 130px;
+   padding: 10px;
+   font-family: "Futura PT";  
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 18px;
+   display: flex;
+   color: #333333;
+}
+
+.footer__address::before{
+   position: absolute;
+   left: -10px;
+   display: block;
+   width: 14px;
+   height: 13px;
+   background-image: url("../image/house.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.footer__number-list{
+   @include reset-list;
+   margin-left: 100px;
+}
+
+.footer__number-itme{
+   position: relative;
+}
+
+.footer__number-itme:nth-child(1)::before{
+   position: absolute;
+   top: 5px;
+   left: -9px;
+   display: block;
+   width: 13px;
+   height: 13px;
+   background-image: url("../image/phone.svg");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.footer_span{
+   display: inline-block;
+   margin-left: 1170px;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 18px;
+   display: flex;
+   align-items: center;
+   text-align: right;
+   color: #5C5C5C;
+}
