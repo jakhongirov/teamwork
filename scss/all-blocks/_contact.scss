@@ -1,0 +1,122 @@
+// Contact section
+
+.contact .container {
+    padding: 113px 177px 0;
+    background-image: url("../image/dog-img.png");
+    background-repeat: no-repeat;
+    background-position: right 27px;
+    background-size: 487px 548px;
+}
+
+.contact__heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.contact__description {
+    max-width: 447px;
+    margin-bottom: 100px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.contact__list {
+    @include reset-list;
+    display: flex;
+}
+
+.contact__item:not(:first-child) {
+    margin-left: 118px;
+}
+
+.contact__item-img {
+    margin-bottom: 25px;
+}
+
+.contact__item-address,
+.contact__item-time,
+.contact__item-tel {
+    display: block;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20.51px;
+    color: #333333;
+}
+
+.contact__item-time:last-child {
+    margin-top: 12px;
+}
+
+.contact__item-tel {
+    text-decoration: none;
+    @extend %transition;
+}
+
+.contact__item-tel:not(:first-child) {
+    margin-top: 9px;
+}
+
+.contact__item-tel:hover {
+    color: #FFBD54;
+}
+
+.contact__item-tel:active {
+    color: #333333;
+    opacity: 0.6;
+}
+
+// Search section 
+
+.search-section .container {
+    position: relative;
+    padding: 228px 0 206px;
+    background-image: url("../image/footprint-img.png");
+    background-repeat: no-repeat;
+    background-position: 406px 101px;
+    background-size: 934px 330px;
+    text-align: center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 190px;
+        left: 23px;
+        width: 443px;
+        height: 342px;
+        background-image: url("../image/dog.png");
+        background-repeat: no-repeat;
+        background-size: 443px 342px;
+    }
+}
+
+.search-section__icon {
+    margin-left: 64px;
+    margin-bottom: 25px;
+}
+
+.search-section__heading {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.search-section__img-box {
+    display: flex;
+}
+
+.search-section__location-img, 
+.search-section__home-img {
+    height: 466px;
+}

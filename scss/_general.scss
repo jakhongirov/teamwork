@@ -40,6 +40,11 @@ body {
 	padding: 10px 20px;
 }
 
+.container-fluid {
+	max-width: 100%;
+	padding: 0;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
