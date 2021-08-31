@@ -95,6 +95,7 @@
    line-height: 18px;
    color: #333333;
    text-decoration: none;
+   @extend %transition;
 }
 
 .top__link-middle:hover{
