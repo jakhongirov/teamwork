@@ -1,9 +1,10 @@
 .faq{
    padding-top: 118px;
-   background-image: url("../image/kisspng-cat-kitten-dog-veterinarian-veterinary-medicine-cat-wearing-a-stethoscope-5aa8950c1229b5\ 1.png");
+   background-image: url("../image/kisspng-cat-kitten-dog-veterinarian-veterinary-medicine-cat-wearing-a-stethoscope-5aa8950c1229b5\ 1.png"), 
+   url("../image/kisspng-rosy-faced-lovebird-parrot-yellow-collared-lovebir-5afc1354e24e69\ 1.png");
    background-repeat: no-repeat;
-   background-size: 569px 466px;
-   background-position: top 59px right -60px;
+   background-size: 550px 466px;
+   background-position: top 59px right -70px, 110% 85% ;
 }
 
 .faq__top-box{
@@ -70,7 +71,7 @@
 
 .faq__bottom-box{
    margin: 0;
-   margin-left: 180px;
+   margin-left: 130px;
    margin-bottom: 270px;
 }
 
