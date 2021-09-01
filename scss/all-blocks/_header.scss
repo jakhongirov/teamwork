@@ -95,6 +95,7 @@
    line-height: 18px;
    color: #333333;
    text-decoration: none;
+   @extend %transition;
 }
 
 .top__link-middle:hover{
@@ -168,7 +169,27 @@
    @include reset-list;
 }
 
-.nav__item--active::before{
+
+
+
+.nav__item + .nav__item{
+   margin-left: 40px;
+}
+
+.nav__link{
+   position: relative;  
+   display: block;
+   padding: 15px;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 21px;
+   color: #333333;
+   text-decoration: none;
+}
+
+.nav__link--active::before{
    position: absolute;
    top: 35%;
    left: -9px;
@@ -179,22 +200,6 @@
    background-repeat: no-repeat;
    background-size: contain;
    content: "";
-}
-
-.nav__item + .nav__item{
-   margin-left: 40px;
-}
-
-.nav__link{
-   display: block;
-   padding: 15px;
-   font-family: 'Futura PT';
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 21px;
-   color: #333333;
-   text-decoration: none;
 }
 
 .nav__link:active{
