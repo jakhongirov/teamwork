@@ -1,0 +1,79 @@
+.hero{
+   padding-top: 127px;
+   padding-bottom: 140px;
+}
+
+.hero__box-top{   
+   padding-top: 127px;
+   padding-bottom: 140px;
+   background-image: url('../image/home.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-color: #fff;
+}
+
+.box-top__box{
+   width: 100%;
+   max-width: 560px;
+   margin-top: auto;
+   margin-left: auto;
+   margin-bottom: auto;
+   margin-right: 130px;
+   padding: 10px;
+}
+
+.hero__box-top-info{
+   margin: 0;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 26px;
+   color: #949494;
+}
+
+.box-info_color-span{
+   color: #FFBD54;
+}
+
+.hero__bottom-box{
+   width: 100%;
+   padding-top: 110px;
+   padding-bottom: 200px;
+   background-image: url('../image/kisspng-dog-breed-puppy-dog-grooming-pet-dog-wash-5b131e5aad1807\ 1.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 100%  0;
+   background-color: #F3F3F3;
+}
+
+.bottom-box__box{
+   width: 100%;
+   max-width: 500px;
+}
+
+.bottom-box__box-info-top{
+   margin: 0;
+   margin-bottom: 19px; 
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+}
+
+.bottom-box__box-info-bottom{
+   margin: 0;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+   color: #949494;
+}
+
+.box-info-bottom__color{
+   color: #3D9CEA;
+}
