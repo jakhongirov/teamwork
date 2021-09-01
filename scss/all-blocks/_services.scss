@@ -1,0 +1,114 @@
+// Services section
+
+.services .container {
+    padding: 118px 177px 140px;
+    background-image: url("../image/parrot.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 435px;
+}
+
+.services__heading {
+    margin-top: 0;
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.services__description {
+    max-width: 447px;
+    margin: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+
+// Cards section
+
+.cards .container {
+    padding: 0 65px 169px;
+}
+
+.cards__heading {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 61.54px;
+    text-align: center;
+    color: #333333;
+}
+
+.card__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @include reset-list;
+}
+
+.card__item {
+    max-width: 305px;
+    padding: 58px 53px 45px;
+    background-color: #fff;
+    background-image: url("../image/pet.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 143px 138px;
+    @extend %transition;
+
+    &:hover {
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+}
+
+.card__item:nth-child(n+5) {
+    margin-top: 34px;
+}
+
+.card__item-heading {
+    margin-bottom: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 34px;
+    color: #333333;
+}
+
+.card__item-description {
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.card__item-link {
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.51px;
+    background-color: #FFBD54;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    @extend %transition;
+
+    &:hover {
+        background-color: #000000;
+    }
+}
+
+.card__item:nth-child(even) .card__item-link {
+    background-color: #78C0DE;
+
+    &:hover {
+        background-color: #000000;
+    }
+}
