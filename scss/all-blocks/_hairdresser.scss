@@ -1,0 +1,86 @@
+.hairdresser{
+   padding-top: 116px;
+   padding-bottom: 250px;
+   background-image: url('../../image/Rectangle\ 62.png'), url('../../image/Rectangle\ 63.png'),  url('../../image/Rectangle\ 64.png');
+   background-size: 307px 400px, 307px 400px, 250px 400px;
+   background-repeat: no-repeat;
+   background-position: 50% 9% , 77% 9%, 100% 9%;
+   border-radius: 5px;
+}
+
+.haidresser__box{
+   width: 100%;
+   max-width: 416px;
+}
+
+.box__heading--size{
+   margin: 0;
+   margin-bottom: 24px; 
+   font-style: normal;
+   font-weight: bold;
+   font-size: 46px;
+   line-height: 48px
+}
+
+.box__info--margin{
+   width: 343px;
+   margin: 0;
+   margin-bottom: 88px;
+}
+
+.box__bottom_box{
+   position: relative;
+   padding: 10px;
+   padding-left: 150px;
+}
+
+.box__bottom_box::before{
+   position: absolute;
+   left: 0;
+   display: block;
+   width: 16px;
+   height: 16px;
+   background-image: url('../../image/Group.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   transform: rotate(270deg);
+   content: "";
+}
+
+.box__bottom_box::after{
+   position: absolute;
+   top: 10px;
+   left: 20%;
+   display: block;
+   width: 16px;
+   height: 16px;
+   background-image: url('../../image/Group.svg');
+   background-repeat: no-repeat;
+   background-size: contain;
+   transform: rotate(90deg);
+   content: "";
+}
+
+
+
+.sup{
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 22px;
+   align-items: center;
+   text-align: center;
+   color: #333333;
+}
+
+.sub{
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 22px;
+   align-items: center;
+   text-align: center;
+   color: #949494;
+}

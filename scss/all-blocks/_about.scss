@@ -1,0 +1,39 @@
+.about{
+   padding-top: 117px;
+   padding-bottom: 320px;
+   background-image: url('../image/kisspng-shar-pei-puppy-cat-kitten-veterinarian-veterinary-5acc8848a895d8\ 1.png') ,
+   url('../image/Group\ 22.png'), url('../image/Object.svg');
+   background-repeat: no-repeat;
+   background-size: contain , 600px 235PX , 112px 112px;
+   background-position: 85% 0, 15% 90%, 38% 90% ;
+}
+
+.about__box{
+   width: 100%;
+   max-width: 411px; 
+   padding: 10px;
+   margin-left: 120px;
+}
+
+.box__heading{
+   margin: 0;
+   margin-bottom: 22px;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: bold;
+   font-size: 70px;
+   line-height: 64px;
+   color: #333333;
+}
+
+.box__info{
+   margin: 0;
+   font-family: 'Futura PT';
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 20px;
+   align-items: center;
+   color: #949494;
+}
+
