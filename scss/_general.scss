@@ -26,6 +26,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: 'FuturaPT';
+	font-style: normal;
+    font-weight: normal;
 	font-size: 16px;
 	line-height: 1.5;
 	margin: 0;
@@ -37,7 +39,7 @@ body {
 	width: 100%;
 	max-width: 1440px;
 	margin: 0 auto;
-	padding: 10px 20px;
+	padding: 0 20px;  //contaynerga tepa pasdan padding keraki.men olib atashladim
 }
 
 .container-fluid {

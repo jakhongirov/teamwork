@@ -1,0 +1,125 @@
+.question{
+ margin-bottom: 150px;
+ padding-top: 74px;
+ padding-bottom: 70px;
+//  height: 560px;
+ background-image: url(../../image/last-section-form-pic.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: left;
+}
+
+.question .container{
+    display: flex;
+   
+}
+
+
+.question-inner{
+    width: 100%;
+    max-width: 276px;
+    margin-left: 100px; 
+    margin-right: 40px;
+}
+.question__headding{
+    
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.question__paragraf{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+
+.form{
+    width: 100%;
+    max-width: 340px;
+}
+
+.form__input[type=text] {
+    width: 100%;
+    max-width: 335px;
+    padding: 12px 20px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+
+.form__input2[type=email] {
+    width: 100%;
+    max-width: 335px;
+    padding: 12px 20px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+
+.text-inp{
+  width: 100%;
+  max-width: 335px;
+  height: 165px;
+  padding: 12px 20px;
+  margin-bottom: 26px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.form__btn{
+    width: 100%;
+    max-width: 227px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #000;
+}
+
+@media only screen and(max-width: 1130px){
+    .question{
+        background-image: url(../../image/form-without-dog.png);
+    }
+
+    .question .container{
+        display: flex;
+        justify-content: center;
+    }
+    .question-inner{
+        margin-left: 0;
+    }
+    
+}
+
+@media only screen and(max-width: 600px){
+    .question .container{
+      flex-direction: column;
+    }
+     
+
+    .question-inner{
+        max-width: 600px;
+        text-align: center;
+        margin-right: 0;
+    }
+    .question__headding{
+        
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 28px;
+    }
+
+
+
+    .form{
+        margin: 0 auto;
+    }
+    
+}
