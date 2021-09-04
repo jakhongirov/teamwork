@@ -105,7 +105,7 @@
 .footer__number-itme:nth-child(1)::before{
    position: absolute;
    top: 5px;
-   left: -9px;
+   left: -20px;
    display: block;
    width: 13px;
    height: 13px;
@@ -113,6 +113,12 @@
    background-repeat: no-repeat;
    background-size: contain;
    content: "";
+}
+
+.footer-top__item__link{
+   padding: 0;
+   padding: 4px;
+   margin: 0;
 }
 
 .footer_span{
