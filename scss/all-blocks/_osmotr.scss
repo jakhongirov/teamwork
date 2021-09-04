@@ -1,0 +1,238 @@
+.osmotr .container{
+    padding: 0 20px;
+    padding-top: 33px;
+}
+
+.nav_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav_link{
+    display: block;
+    margin-right: 18px;
+    margin-bottom: 33px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+
+.nav_link-active{
+    color: #333;
+}
+
+.osmotr-wrapper{
+    display: flex;
+    // flex-wrap: wrap;
+    margin-left: 220px;
+    margin-bottom: 150px;
+    justify-content: space-between;
+}
+// left box==============
+.osmotr__left-box{
+   width: 100%;
+   max-width: 640px;
+   margin-right: 20px;
+}
+
+.left-box__headding{
+    margin: 0;
+    margin-bottom: 28px;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.left-box__span{
+    color: #FFBD54;
+}
+
+.left-box__list{
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+    list-style: none;
+}
+
+.left-box__item__pragrf{
+    margin-bottom: 22px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+}
+
+.left-box__link-inner{
+    // display: flex;
+    margin-bottom: 40px;
+}
+
+.left-box__link{
+    position: relative;
+    padding: 10px;
+    padding-left: 63px;
+    padding-right: 33px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 21px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #FFBD54;
+    border-radius: 3px;  
+}
+
+
+.left-box__link + .left-box__link{
+    margin-left: 20px;
+}
+
+.left-box__link::before{
+    position: absolute;
+    top: 10px;
+    left: 36px;
+    width: 21px;
+    height: 21px;
+    background-image: url(../../image/servise-open-link-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    content: '';
+}
+
+.link-second{
+    background-color: #333;
+}
+
+.link-second::before{
+    background-image: url(../../image/serves-open__link2.png);
+}
+
+// right-box
+
+.right-box__list{
+    padding: 0;
+    list-style: none;
+}
+
+.right-box__item{
+    width: 100%;
+    max-width: 305px;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+}
+.right-box__item + .right-box__item {
+    margin-top: 12px;
+} 
+
+
+.right-box__item__inner{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 39px;
+
+}
+
+.right-box__item__time{
+    text-align: end;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 14px;
+    color: #949494;
+}
+
+.right-box__item__headding{
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.right-box__item__paragrf{
+    margin: 0;
+    margin-bottom: 31px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+
+.right-box__item__link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+
+
+@media only screen and(max-width: 1216px) {
+    .osmotr-wrapper{
+        margin-left: 0;
+    }
+}
+
+
+@media only screen and(max-width: 774px) {
+    .osmotr-wrapper{
+        flex-direction: column;
+    }
+
+    .osmotr__left-box{
+        max-width: 800px;
+    }
+
+    .left-box__headding{
+        font-size: 52px;
+        line-height: 48px;
+    }
+
+    .right-box__list{
+        display: flex;
+        justify-content: space-between;
+
+    }
+   
+    .right-box__item + .right-box__item {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+ 
+}
+
+@media only screen and(max-width: 535px){
+    .left-box__headding{
+        font-size: 38px;
+        line-height: 28px;
+    }
+    
+    .osmotr__right-box{
+        margin: 0 auto;
+    }
+    .right-box__list{
+        flex-direction: column;
+    }
+
+    .right-box__item + .right-box__item {
+        margin-left: 0;
+        margin-top: 20px;
+
+    }
+}
+
+@media only screen and(max-width: 476px){
+    .left-box__link{
+        display: block;
+        width: fit-content;
+    }
+
+    .left-box__link + .left-box__link{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
