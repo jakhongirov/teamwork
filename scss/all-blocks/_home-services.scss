@@ -1,0 +1,61 @@
+.home-services .container{
+    text-align: center;
+}
+
+.home-services{
+    padding-bottom:14px;
+}
+
+.home-services__headding{
+    margin: 0;
+    margin-bottom: 80px;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color:#333333;
+}
+
+.home-services__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    @include reset-list
+}
+
+.home-services__list::before{
+    background-image:url("../../image/Vector\ \(25\).png");
+    background-repeat: no-repeat;
+    background-size: 14px 26px ;
+    content: "";
+}
+
+.home-services__item{
+    padding: 30px;
+    width: 193px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.home-services__item + .home-services__item {
+    margin-left: 13px;
+}
+
+.home-services__item:hover{
+    opacity: 0.7;
+}
+
+.home-services__item:active{
+    opacity: 0.4;
+}
+
+.item__decs{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.home-services__item img{
+    margin-bottom: 23px;
+}

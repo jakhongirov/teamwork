@@ -1,0 +1,48 @@
+
+.curse{
+    position: relative;
+    background-image: url("../../image/Mask\ Group.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 216px;
+}
+
+.curse .container{
+    // position: absolute;
+    background-image: url("../../image/dog.png");
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-position: right;
+}
+
+.curse__input{
+    padding: 75px 215px;}
+    
+
+
+.curse__headding{
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.input{
+    margin-right: 21px;
+    width: 296px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 4px;
+}
+
+.curse__button{
+    
+    padding: 12px 55px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+

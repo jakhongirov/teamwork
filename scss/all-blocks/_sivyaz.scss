@@ -1,0 +1,101 @@
+.sivyaz{
+    padding: 0;
+    background-image: url("../../image/Rectangle\ 29.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sivyaz .container-fluid{
+    display: flex;
+    margin: 0 auto;
+}
+
+.sivyaz_left-box{
+    width: 100%;
+    width: 462px;
+    height: 652px;
+}
+
+.sivyaz_right-box{
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 140px;
+    padding-bottom: 20px;
+    background-image: url("../../image/kisspng-goldfish-koi-clip-art-real-fish-png-clipart-5a7877e5873c15\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 410px  ;
+    background-position: right;
+}
+
+.sivyaz__headding{
+    margin: 0;
+    margin-bottom: 14px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.sivyaz__paragraf{
+    width: 100%;
+    max-width: 334px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.form{
+    width: 100%;
+    max-width: 340px;
+}
+
+.form__input[type=text] {
+    width: 100%;
+    max-width: 335px;
+    padding: 12px 20px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+
+.form__input2[type=email] {
+    width: 100%;
+    max-width: 335px;
+    padding: 12px 20px;
+    margin-bottom: 14px;
+    box-sizing: border-box;
+}
+
+.text-inp{
+  width: 100%;
+  max-width: 335px;
+  height: 165px;
+  padding: 12px 20px;
+  margin-bottom: 26px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.home-form__btn{
+    width: 100%;
+    max-width: 227px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FFBD54;
+}
+
+.home-form__btn:hover{
+    color: #FFBD54;
+    background-color: #222;
+}
+
+.home-form__btn:active{
+    color: #FFBD54;
+    background-color: #222;
+    opacity: 0.5;
+}
