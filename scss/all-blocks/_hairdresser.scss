@@ -1,10 +1,10 @@
 .hairdresser{
    padding-top: 116px;
    padding-bottom: 250px;
-   background-image: url('../../image/Rectangle\ 62.png'), url('../../image/Rectangle\ 63.png'),  url('../../image/Rectangle\ 64.png');
+   background-image: url('../../image/hairdresser-women.png'), url('../../image/hairdresser-cat.png'),  url('../../image/hairdresser-dog.png');
    background-size: 307px 400px, 307px 400px, 250px 400px;
    background-repeat: no-repeat;
-   background-position: 50% 9% , 77% 9%, 100% 9%;
+   background-position: calc(50% - 120px) 9% , calc(50% + 220px) 9%, calc(50% + 540px) 9%;
    border-radius: 5px;
 }
 

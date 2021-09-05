@@ -1,5 +1,6 @@
 .header-top {
 	background-color: #f9f8f8;
+	user-select: none;
 }
 
 .header-top .container {
@@ -116,6 +117,7 @@
 	background: #ffffff;
 	border: 1px solid #f3f3f3;
 	box-sizing: border-box;
+	user-select: none;
 }
 
 .header-bottom .container{
